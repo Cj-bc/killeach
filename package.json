@@ -1,0 +1,9 @@
+{
+  "name": "killeach",
+  "version": "0.1.0",
+  "description": "Kill all processes provided from stdin.",
+  "global": "1",
+  "install": "install -b killeach.sh ${PREFIX:-/usr/local}/bin/killeach",
+  "scripts": [ "killeach.sh" ]
+}
+
